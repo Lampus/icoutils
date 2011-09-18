@@ -1,0 +1,208 @@
+.\"                                      -*- nroff -*-
+.\" wrestool.1 - Manual page for wrestool.
+.\"
+.\" Copyright (C) 2001 Colin Watson
+.\" Copyright (C) 2001 Oskar Liljeblad
+.\"
+.\" This program is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program.  If not, see <http://www.gnu.org/licenses/>.
+.\"
+.TH WRESTOOL "1" "April 18, 2005" "wrestool (icoutils)"
+.SH NAME
+wrestool \- extract resources from Microsoft Windows(R) binaries
+.SH SYNOPSIS
+.B wrestool
+.RI [ OPTIONS "]... [" FILE ]...
+.SH DESCRIPTION
+This manual page documents briefly the \fBwrestool\fP command.
+This manual page was written for the Debian GNU distribution
+because the original program does not have a manual page.
+.PP
+Wrestool reads 16- or 32-bit Microsoft Windows(R) binaries
+and lists or extracts the resources they contain. Some resources
+require processing before they can be written to files; wrestool is
+able to do this with icon and cursor resources.
+
+Filters, specified as command line options, control what resources to
+extract.
+.SH OPTIONS
+These programs follow the usual GNU command line syntax, with long
+options starting with two dashes (`-').
+.TP
+.B \-x, \-\-extract
+Extract resources. (By default, resources will be extracted to
+standard out if --output was not specified.)
+.TP
+.B \-l, \-\-list
+Output list of resources (default).
+.TP
+.B \-t, \-\-type=[+|\-]ID
+Resource type identifier of affected resources. If preceeded
+with a dash (``-''), id must be numeric; if preceeded with a
+plus sign (``+''), id must be a string.
+
+The type ID may also be the name of a resource type. (If this is
+the case, a leading dash or plus sign may not be included.) A
+list of resource types can be found in the ``Resource Types''
+section.
+.TP
+.B \-n, \-\-name=[+|\-]ID
+Resource name identifier of affected resources. Like the --type
+option, a leading dash or plus sign controls the datatype of the
+id.
+.TP
+.B \-L, \-\-language=[+|\-]ID
+Resource language identifier. Has no effect when processing
+16-bit libraries.
+.TP
+.B \-\-all
+Perform operation on all resource (default).
+.TP
+.B \-o, \-\-output=PATH
+Where to place extracted resources. If ``PATH'' does not refer
+to an existing directory, and does not end with a slash (``/''),
+all output will be written to the file ``PATH''. (This means
+that if you extract multiple resources, PATH will contain the
+last resource only.)
+.TP
+.B \-R, \-\-raw
+Do not parse resource contents - extract raw data. (This option
+will probably be replaced with --format=raw in future version of
+icoutils.)
+.TP
+.B \-v, \-\-verbose
+Explain what is being done. The verbose option may be specified
+more than once, like ``-vv'', to make wrestool even more
+verbose.
+.TP
+.B \-\-help
+Display a help message and exit.
+.TP
+.B \-\-version
+Output version information and exit.
+.SH RESOURCE TYPES
+The wrestool program recognizes the resource types listed below.
+The ids of these resources are always numeric and not strings.
+.TP
+.B cursor (1)
+A single cursor bitmap image. Read as part of group_cursor resources.
+.TP
+.B bitmap (2)
+A bitmap image.
+.TP
+.B icon (3)
+A single icon bitmap image. Read as part of group_icon resources.
+This resource is similar to cursor resources; cursors contain
+four additional bytes of hotspot coordinates.
+.TP
+.B menu (4)
+Resources for menus (in popup and menubars). 
+Currently wrestool does not support this resource type.
+.TP
+.B dialog (5)
+Definitions (widgets with locations) for dialog boxes.
+Currently wrestool does not support this resource type.
+.TP
+.B string (6)
+The string table resource, containing a number of unicode
+strings. Currently wrestool does not support this resource type.
+.TP
+.B fontdir (7)
+The font directory, containing information on a number of font
+resources (8). Non-TTF font (.FON) files are actually
+libraries with resources in them. Currently wrestool does not
+support this resource type.
+.TP
+.B font (8)
+A single font - the contents of a .FNT file. Read as part of
+fontdir resources. Currently wrestool does not support this resource type.
+.TP
+.B accelerator (9)
+Keyboard accelerator tables.
+Currently wrestool does not support this resource type.
+.TP
+.B rcdata (10)
+Arbitrary resource data, user-defined. There are no restrictions to the
+format of these resources.
+.TP
+.B messagelist (11)
+Not supported.
+.TP
+.B group_cursor (12)
+A set of cursors. With a few modifications (and with cursor resources),
+this resource can be extracted as a .CUR file.
+.TP
+.B group_icon (14)
+A set of icons. With a few modifications (and with icons resources),
+this resource can be extracted as a .ICO file.
+.TP
+.B version (16)
+Version information, stored as binary data. Could be extracted
+without modifications, but the data is of probably little use.
+Currently wrestool does not support this resource type.
+.TP
+.B dlginclude (17)
+Not supported.
+.TP
+.B plugplay (19)
+Not supported.
+.TP
+.B vxd (20)
+Not supported.
+.TP
+.B anicursor (21)
+Animated cursors. Currently wrestool does not support animated
+cursor or icons, nor does icotool.
+.TP
+.B aniicon (22)
+Animated icons. I have only seen these in Windows(R) 3.x.
+Currently wrestool does not support animated
+cursor or icons, nor does icotool.
+.SH EXAMPLES
+List all resources in file `write.exe':
+.br
+  $ \fBwrestool -l write.exe\fP
+  --type=3 --name=1 --lang=1033 [type=icon offset=0x3120 size=752]
+  --type=3 --name=2 --lang=1033 [type=icon offset=0x3410 size=304]
+  --type=14 --name=1 --lang=1033 [type=group_icon offset=0x3540 size=34]
+  --type=16 --name=1 --lang=1033 [type=version offset=0x3564 size=808]
+.PP
+List all (group-) icon resource in file `write.exe':
+.br
+  $ \fBwrestool -l --type=group_icon write.exe\fP
+  --type=14 --name=1 --lang=1033 [type=group_icon offset=0x3540 size=34]
+.PP
+Extract all icons to current directory, naming the destination files
+`write.exe_T_N.ico':
+.br
+  $ \fBwrestool -x --output=. -t14 write.exe\fP
+  $ \fBls *.ico\fP
+  write.exe_14_1.ico
+.SH SEE ALSO
+.BR extresso (1),
+.BR genresscript (1),
+.BR icotool (1).
+.SH AUTHOR
+This manual page was written by Colin Watson <cjwatson@debian.org>
+for the Debian GNU system (but may be used by others). It was later
+modified by Oskar Liljeblad <oskar@osk.mine.nu>.
+.SH COPYRIGHT
+Copyright \(co 2001 Colin Watson
+
+Copyright \(co 2001 Oskar Liljeblad
+
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+.SH TRADEMARKS
+Windows is a registered trademark of Microsoft Corporation in the United
+States and other countries.

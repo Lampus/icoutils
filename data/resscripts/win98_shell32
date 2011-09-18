@@ -1,0 +1,93 @@
+# win98_shell32  0.1  (1999-06-03)
+# extresso Resource Script
+#
+# Suggested base directory:          c:\windows\
+# Number of binaries listed:         1
+# Number of icon resources listed:   80
+#
+# Oskar Liljeblad <oskar@osk.mine.nu>
+#
+
+version 1
+
+file system/shell32.dll
+resource group_icon, 1: ms/documents/logo_windows
+resource group_icon, 2: ms/documents/wordprocessor
+resource group_icon, 3: ms/window
+resource group_icon, 4: ms/folders/plain
+resource group_icon, 5: ms/folders/plain_open
+resource group_icon, 6: ms/drives/floppy_5_25
+resource group_icon, 7: ms/drives/floppy_3_5
+resource group_icon, 8: ms/drives/tape
+resource group_icon, 9: ms/drives/harddisk
+resource group_icon, 10: ms/drives/harddisk_networked
+resource group_icon, 11: ms/drives/harddisk_network_error
+resource group_icon, 12: ms/drives/cdrom
+resource group_icon, 13: ms/chip
+resource group_icon, 14: ms/globe_with_stative
+resource group_icon, 15: ms/network_cables
+resource group_icon, 16: ms/computers/with_windows
+resource group_icon, 17: ms/printer_with_document
+resource group_icon, 18: ms/computers/networked_two
+resource group_icon, 19: ms/computers/networked_three
+resource group_icon, 20: ms/folders/apps
+resource group_icon, 21: ms/folders/document_open
+resource group_icon, 22: ms/gears_settings
+resource group_icon, 23: ms/documents/magnify_text
+resource group_icon, 24: ms/book_question_mark
+resource group_icon, 25: ms/window_hour_glass
+resource group_icon, 26: ms/monitor_moon
+resource group_icon, 27: ms/dock_station_undock
+resource group_icon, 28: ms/monitor_shutdown
+resource group_icon, 29: ms/hand_share
+resource group_icon, 30: ms/arrow_framed
+resource group_icon, 31: ms/framed_circle_black
+resource group_icon, 32: ms/recycle_bin
+resource group_icon, 33: ms/recycle_bin_with_litter
+resource group_icon, 34: ms/folders/dialup
+resource group_icon, 35: ms/desktop_with_pen
+resource group_icon, 36: ms/folders/tools
+resource group_icon, 37: ms/folders/apps2
+resource group_icon, 38: ms/folders/printer
+resource group_icon, 39: ms/folders/letters
+resource group_icon, 40: ms/button_windows_logo
+resource group_icon, 41: ms/cd_with_music_note
+resource group_icon, 42: ms/tree
+resource group_icon, 43: ms/folders/computer
+resource group_icon, 44: ms/folders/asterisk
+resource group_icon, 45: ms/key
+resource group_icon, 46: ms/folders/magnify
+resource group_icon, 47: ms/globe_windows_logo
+resource group_icon, 133: ms/documents/plain_multiple
+resource group_icon, 134: ms/documents/magnify_text
+resource group_icon, 135: ms/computers/magnify
+resource group_icon, 136: ms/computers/with_monitor_shutdown
+resource group_icon, 137: ms/folders/tools2
+resource group_icon, 138: ms/folders/printer2
+resource group_icon, 139: ms/documents/printer
+resource group_icon, 140: ms/printer_networked
+resource group_icon, 141: ms/printer_to_disk
+resource group_icon, 142: ms/recycle_bin_with_document
+resource group_icon, 143: ms/recycle_bin_with_folder
+resource group_icon, 144: ms/recycle_bin_with_document_and_folder
+resource group_icon, 145: ms/documents_replace
+resource group_icon, 146: ms/folders_document_exchange
+resource group_icon, 147: ms/folder_renaming
+resource group_icon, 148: ms/computers/with_gear_to_folder
+resource group_icon, 151: ms/documents/notebook_certified
+resource group_icon, 152: ms/documents/notebook
+resource group_icon, 153: ms/window_with_gear
+resource group_icon, 154: ms/documents/gears
+resource group_icon, 155: ms/documents/letter_a
+resource group_icon, 156: ms/documents/letters_t_t
+resource group_icon, 157: ms/documents/letter_lowercase_a
+resource group_icon, 160: ms/window_with_hour_glass
+resource group_icon, 161: ms/folder_document_destroy
+resource group_icon, 165: ms/drives/harddisk_disk_tape_backup
+resource group_icon, 166: ms/drives/harddrive_inside
+resource group_icon, 167: ms/staples
+resource group_icon, 168: ms/printer_with_check_mark
+resource group_icon, 169: ms/printer_with_check_mark_networked
+resource group_icon, 170: ms/printer_with_check_mark_to_disk
+resource group_icon, 171: ms/component_tree
+resource group_icon, 173: ms/folders/asterisk

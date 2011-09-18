@@ -1,0 +1,354 @@
+#
+# This script is not finished yet.
+# (I haven't had time to categorize all icons yet.)
+#
+
+file SNWValid.dll
+resource group_icon, 131: 
+resource group_icon, 134: 
+resource group_icon, 136: 
+
+file cdfview.dll
+resource group_icon, 'ICONGLEAM': 
+resource group_icon, 'LOGOGLEAM': 
+resource group_icon, 8192: 
+resource group_icon, 8193: 
+resource group_icon, 8194: 
+resource group_icon, 8195: 
+resource group_icon, 8196: 
+
+file dacui.dll
+resource group_icon, 4998: 
+resource group_icon, 4999: 
+
+file dataclen.dll
+resource group_icon, 100: 
+
+file deskcp16.dll
+resource group_icon, 40: 
+resource group_icon, 41: 
+resource group_icon, 42: 
+
+file diskcopy.dll
+resource group_icon, 1: 
+
+file docprop.dll
+resource group_icon, 1997: 
+resource group_icon, 1998: 
+resource group_icon, 1999: 
+
+file dpmodemx.dll
+resource group_icon, 701: 
+
+file dxmasf.dll
+resource group_icon, 500: 
+resource group_icon, 501: 
+resource group_icon, 502: 
+
+file fontext.dll
+resource group_icon, 1: 
+resource group_icon, 2: 
+resource group_icon, 3: 
+resource group_icon, 4: 
+
+file hppcl5ui.dll
+resource group_icon, 3: 
+resource group_icon, 4: 
+resource group_icon, 5: 
+resource group_icon, 6: 
+resource group_icon, 2213: 
+resource group_icon, 2214: 
+resource group_icon, 2218: 
+resource group_icon, 2219: 
+resource group_icon, 2570: 
+resource group_icon, 2571: 
+resource group_icon, 2572: 
+resource group_icon, 2573: 
+resource group_icon, 2574: 
+resource group_icon, 2575: 
+resource group_icon, 2576: 
+resource group_icon, 2577: 
+resource group_icon, 2578: 
+resource group_icon, 2579: 
+resource group_icon, 2580: 
+resource group_icon, 2581: 
+
+file icfg95.dll
+resource group_icon, 2200: 
+
+file icm32.dll
+resource group_icon, 100: 
+
+file icmui.dll
+resource group_icon, 100: 
+resource group_icon, 101: 
+
+file icwdial.dll
+resource group_icon, 101: 
+resource group_icon, 102: 
+
+file iernonce.dll
+resource group_icon, 132: 
+
+file inetcfg.dll
+resource group_icon, 2300: 
+resource group_icon, 2303: 
+
+file infrared.dll
+resource group_icon, 'IR_ICON': 
+
+file iosclass.dll
+resource group_icon, 2: 
+resource group_icon, 3: 
+
+file ir_ndi.dll
+resource group_icon, 104: 
+
+file isign32.dll
+resource group_icon, 'ICO_APP': 
+resource group_icon, 100: 
+resource group_icon, 4001: 
+
+file itss.dll
+resource group_icon, 1: 
+
+file javacypt.dll
+resource group_icon, 103: 
+
+file jobexec.dll
+resource group_icon, 1: 
+resource group_icon, 6: 
+
+file maincp16.dll
+resource group_icon, 110: 
+resource group_icon, 111: 
+
+file mapi32.dll
+resource group_icon, 451: 
+
+file mmci.dll
+resource group_icon, 1: 
+
+file modemui.dll
+resource group_icon, 700: 
+resource group_icon, 701: 
+resource group_icon, 702: 
+resource group_icon, 703: 
+
+file mprserv.dll
+resource group_icon, 68: 
+resource group_icon, 70: 
+resource group_icon, 71: 
+resource group_icon, 72: 
+resource group_icon, 73: 
+resource group_icon, 120: 
+resource group_icon, 121: 
+
+file msacm.dll
+resource group_icon, 10: 
+
+file msacm32.dll
+resource group_icon, 10: 
+
+file mslocusr.dll
+resource group_icon, 103: 
+resource group_icon, 104: 
+
+file msnp32.dll
+resource group_icon, 'FOLDER_ICON': 
+resource group_icon, 'SERVER_ICON': 
+resource group_icon, 'WRKGRP_ICON': 
+
+file msoeacct.dll
+resource group_icon, 100: 
+resource group_icon, 101: 
+resource group_icon, 102: 
+resource group_icon, 103: 
+
+file msoemapi.dll
+resource group_icon, 'ICON_ATTACH': 
+resource group_icon, 451: 
+resource group_icon, 501: 
+resource group_icon, 801: 
+
+file mspcic.dll
+resource group_icon, 100: 
+
+file msprint.dll
+resource group_icon, 100: 
+
+file msrating.dll
+resource group_icon, 102: 
+resource group_icon, 103: 
+resource group_icon, 104: 
+resource group_icon, 105: 
+resource group_icon, 106: 
+resource group_icon, 107: 
+resource group_icon, 108: 
+resource group_icon, 109: 
+
+file mstask.dll
+resource group_icon, 100: 
+resource group_icon, 101: 
+resource group_icon, 102: 
+resource group_icon, 103: 
+resource group_icon, 273: 
+resource group_icon, 274: 
+
+file msvbvm50.dll
+resource group_icon, 1201: 
+resource group_icon, 1202: 
+resource group_icon, 1203: 
+resource group_icon, 1204: 
+
+file msvfw32.dll
+resource group_icon, 943: 
+
+file msvideo.dll
+resource group_icon, 943: 
+
+file mwci.dll
+resource group_icon, 1: 
+resource group_icon, 2: 
+
+file mydocs.dll
+resource group_icon, 100: 
+
+file netdi.dll
+resource group_icon, 'COMPUTER_ICON': 
+
+file nv4cpl.dll
+resource group_icon, 1: 
+resource group_icon, 2: 
+resource group_icon, 3: 
+resource group_icon, 4: 
+resource group_icon, 5: 
+resource group_icon, 6: 
+resource group_icon, 7: 
+resource group_icon, 8: 
+resource group_icon, 9: 
+resource group_icon, 10: 
+resource group_icon, 11: 
+resource group_icon, 12: 
+resource group_icon, 13: 
+resource group_icon, 36: 
+resource group_icon, 102: 
+
+file occache.dll
+resource group_icon, 100: 
+resource group_icon, 101: 
+resource group_icon, 110: 
+resource group_icon, 111: 
+
+file odbcint.dll
+resource group_icon, 1439: 
+resource group_icon, 8706: 
+resource group_icon, 8707: 
+
+file oidis400.dll
+resource group_icon, 'SEQFILEICON': 
+
+file oislb400.dll
+resource group_icon, 'DC_SCAN_ICO': 
+
+file oiui400.dll
+resource group_icon, 'IMGSTAMP': 
+resource group_icon, 'TEXTSTAMP': 
+
+file ole2.dll
+resource group_icon, 'DEFICON': 
+
+file ole32.dll
+resource group_icon, 8: 
+
+file pnui3240.dll
+resource group_icon, 610: 
+resource group_icon, 611: 
+resource group_icon, 612: 
+resource group_icon, 613: 
+resource group_icon, 614: 
+resource group_icon, 615: 
+resource group_icon, 616: 
+resource group_icon, 617: 
+resource group_icon, 618: 
+resource group_icon, 619: 
+resource group_icon, 620: 
+resource group_icon, 662: 
+
+file powerold.dll
+resource group_icon, 205: 
+resource group_icon, 210: 
+resource group_icon, 211: 
+
+file psl350.dll
+resource group_icon, 'ACCHARGICON': 
+resource group_icon, 'BATTNORMICON': 
+resource group_icon, 'BATTWARNICON': 
+resource group_icon, 'IDI_PRFL_HELP_ICON': 
+
+file psll.dll
+resource group_icon, 'ACCHARGICON': 
+resource group_icon, 'BATTNORMICON': 
+resource group_icon, 'BATTWARNICON': 
+resource group_icon, 'IDI_PRFL_HELP_ICON': 
+
+file pstorerc.dll
+resource group_icon, 104: 
+
+file rnanp.dll
+resource group_icon, 100: 
+
+file rnaui.dll
+resource group_icon, 100: 
+resource group_icon, 101: 
+resource group_icon, 102: 
+resource group_icon, 103: 
+resource group_icon, 104: 
+resource group_icon, 105: 
+resource group_icon, 106: 
+
+file sendmail.dll
+resource group_icon, 2001: 
+
+file setup4.dll
+resource group_icon, 500: 
+resource group_icon, 501: 
+resource group_icon, 502: 
+
+file shscrap.dll
+resource group_icon, 100: 
+
+file smmscrpt.dll
+resource group_icon, 100: 
+
+file softpub.dll
+resource group_icon, 103: 
+
+file sti_ci.dll
+resource group_icon, 1000: 
+
+file strmdll.dll
+resource group_icon, 353: 
+
+file tapiui.dll
+resource group_icon, 'CALLCARD': 
+resource group_icon, 'TAPILINE': 
+resource group_icon, 'TAPIPHONE': 
+resource group_icon, 108: 
+
+file thumbvw.dll
+resource group_icon, 5001: 
+resource group_icon, 5003: 
+resource group_icon, 5004: 
+
+file url.dll
+resource group_icon, 102: 
+resource group_icon, 103: 
+resource group_icon, 104: 
+resource group_icon, 105: 
+resource group_icon, 106: 
+
+file urlmon.dll
+resource group_icon, 116: 
+resource group_icon, 118: 
+resource group_icon, 119: 

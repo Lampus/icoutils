@@ -1,0 +1,121 @@
+# win98_moricons  0.1.1  (1999-07-18)
+# extresso Resource Script
+#
+# moricons.dll:
+#   Icons designed for MS-DOS applications. Most of them probably weren't
+#   drawn by Microsoft. In my opinion, they are very ugly :).
+#
+# Suggested base directory:          c:\windows\
+# Number of binaries listed:         1
+# Number of icon resources listed:   50
+#
+# Oskar Liljeblad <oskar@osk.mine.nu>
+#
+
+file moricons.dll
+resource group_icon, 1: ms/frame_with_msdos_text
+resource group_icon, 2: ms/logo_msdos_3d
+resource group_icon, 3: ms/logo_ms_industry_for_msdos
+resource group_icon, 4: ms/logo_ms_c_for_msdos
+resource group_icon, 5: ms/logo_ms_travel_for_msdos
+resource group_icon, 6: ms/logo_ms_window_and_disk_for_msdos
+resource group_icon, 7: ms/logo_ms_spreadsheet_for_msdos
+resource group_icon, 8: ms/logo_ms_flow_for_msdos
+resource group_icon, 9: ms/computers/with_mouse_and_crayons
+resource group_icon, 10: ms/logo_ms_word_for_msdos
+resource group_icon, 11: ms/logo_ms_letters_for_msdos
+resource group_icon, 12: ms/logo_ms_pencil_and_printing_for_msdos
+resource group_icon, 13: ms/logo_ms_games_for_msdos
+resource group_icon, 14: ms/logo_ms_swiss_knife_for_msdos
+resource group_icon, 15: ms/logo_ms_tools_for_msdos
+resource group_icon, 16: ms/logo_ms_tools_2_for_msdos
+resource group_icon, 17: ms/logo_ms_tools_3_for_msdos
+resource group_icon, 18: ms/no_desc/app_presentation
+resource group_icon, 19: ms/no_desc/app_msdos_window
+resource group_icon, 20: ms/no_desc/logo_mm
+resource group_icon, 21: ms/no_desc/logo_heart
+resource group_icon, 22: ms/no_desc/logo_now
+resource group_icon, 23: ms/no_desc/sun_happy
+resource group_icon, 24: ms/logo_borland_c++
+resource group_icon, 25: ms/logo_quattro_pro
+resource group_icon, 26: ms/logo_turbo_pascal
+resource group_icon, 27: ms/logo_paradox_3_0
+resource group_icon, 28: ms/logo_paradox_3_5
+resource group_icon, 29: ms/logo_paradox_se
+resource group_icon, 30: ms/logo_borland_reflex
+resource group_icon, 31: ms/no_desc/app_logo_bpi
+resource group_icon, 32: ms/logo_plus
+resource group_icon, 33: ms/frame_with_msdos_text
+resource group_icon, 34: ms/no_desc/stripes_and_patterns_yellow
+resource group_icon, 35: ms/no_desc/stripes_and_patterns_blue
+resource group_icon, 36: ms/no_desc/stripes_and_patterns_2_blue
+resource group_icon, 37: ms/logo_dataease
+resource group_icon, 38: ms/logo_crosstalk_mk_4
+resource group_icon, 39: ms/logo_crosstalk_xvi
+resource group_icon, 40: ms/logo_remote
+resource group_icon, 41: ms/envelope_white
+resource group_icon, 42: ms/no_desc/cut_network
+resource group_icon, 43: ms/no_desc/sheet_gray
+resource group_icon, 44: ms/logo_vt
+resource group_icon, 45: ms/no_desc/dish_and_computer
+resource group_icon, 46: ms/logo_pctcp
+resource group_icon, 47: ms/logo_gazzelle
+resource group_icon, 48: ms/logo_gazzelle_2
+resource group_icon, 49: ms/logo_dollar_mark
+resource group_icon, 50: ms/flower_sun
+#resource group_icon, 51: 
+#resource group_icon, 52: 
+#resource group_icon, 53: 
+#resource group_icon, 54: 
+#resource group_icon, 55: 
+#resource group_icon, 56: 
+#resource group_icon, 57: 
+#resource group_icon, 58: 
+#resource group_icon, 59: 
+#resource group_icon, 60: 
+#resource group_icon, 61: 
+#resource group_icon, 62: 
+#resource group_icon, 63: 
+#resource group_icon, 64: 
+#resource group_icon, 65: 
+#resource group_icon, 66: 
+#resource group_icon, 67: 
+#resource group_icon, 68: 
+#resource group_icon, 69: 
+#resource group_icon, 70: 
+#resource group_icon, 71: 
+#resource group_icon, 72: 
+#resource group_icon, 73: 
+#resource group_icon, 74: 
+#resource group_icon, 75: 
+#resource group_icon, 76: 
+#resource group_icon, 77: 
+#resource group_icon, 78: 
+#resource group_icon, 79: 
+#resource group_icon, 80: 
+#resource group_icon, 81: 
+#resource group_icon, 82: 
+#resource group_icon, 83: 
+#resource group_icon, 84: 
+#resource group_icon, 85: 
+#resource group_icon, 86: 
+#resource group_icon, 87: 
+#resource group_icon, 88: 
+#resource group_icon, 89: 
+#resource group_icon, 90: 
+#resource group_icon, 91: 
+#resource group_icon, 92: 
+#resource group_icon, 93: 
+#resource group_icon, 94: 
+#resource group_icon, 95: 
+#resource group_icon, 96: 
+#resource group_icon, 97: 
+#resource group_icon, 98: 
+#resource group_icon, 99: 
+#resource group_icon, 100: 
+#resource group_icon, 101: 
+#resource group_icon, 102: 
+#resource group_icon, 103: 
+#resource group_icon, 104: 
+#resource group_icon, 105: 
+#resource group_icon, 106: 

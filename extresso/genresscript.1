@@ -1,0 +1,49 @@
+.\"                                      -*- nroff -*-
+.\" genresscript.1 - Manual page for genresscript.
+.\"
+.\" Copyright (C) 2001 Colin Watson
+.\" Copyright (C) 2001 Oskar Liljeblad
+.\"
+.\" This program is free software: you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation, either version 3 of the License, or
+.\" (at your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful,
+.\" but WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program.  If not, see <http://www.gnu.org/licenses/>.
+.\"
+.TH GENRESSCRIPT "1" "April 18, 2005" "genresscript (icoutils)"
+.SH NAME
+genresscript \- generate resource script from PE and NE binaries
+.SH SYNOPSIS
+.B genresscript
+.RI [ FILE ]...
+.SH DESCRIPTION
+This manual page documents briefly the \fBgenresscript\fP command.
+This manual page was written for the Debian GNU distribution
+because the original program does not have a manual page.
+.PP
+Genresscript takes any number of PE or NE binaries, and outputs a
+resource script with all resources from the binaries listed.
+(Everything but the destination filename will be filled in in the script.)
+This is useful when you already have extracted images and want to
+create a resource script of them.
+.SH SEE ALSO
+.BR extresso (1),
+.BR icotool (1),
+.BR wrestool (1).
+.SH AUTHOR
+This manual page was written by Colin Watson <cjwatson@debian.org>
+and Oskar Liljeblad <oskar@osk.mine.nu>.
+.SH COPYRIGHT
+Copyright \(co 2001 Colin Watson
+
+Copyright \(co 2001 Oskar Liljeblad
+
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

@@ -1,0 +1,51 @@
+# win98_pifmgr  0.1  (1999-06-16)
+# extresso Resource Script
+#
+# Suggested base directory:          c:\windows\
+# Number of binaries listed:         1
+# Number of icon resources listed:   38
+#
+# Oskar Liljeblad <oskar@osk.mine.nu>
+#
+
+version 1
+
+file system/pifmgr.dll
+resource group_icon, 1: ms/logo_msdos
+resource group_icon, 2: ms/umbrella
+resource group_icon, 3: ms/brick_letters
+resource group_icon, 4: ms/newspaper_folded
+resource group_icon, 5: ms/apple_bitten
+resource group_icon, 6: ms/cloud_dark_with_lightning
+resource group_icon, 7: ms/tuba_instrument
+resource group_icon, 8: ms/ball_beach
+resource group_icon, 9: ms/light_bulb
+resource group_icon, 10: ms/pillar_greek
+resource group_icon, 11: ms/money
+resource group_icon, 12: ms/computers/with_blue_screen
+resource group_icon, 13: ms/keyboard
+resource group_icon, 14: ms/archives
+resource group_icon, 15: ms/calendar
+resource group_icon, 16: ms/documents/letters_ab_with_paper_clip
+resource group_icon, 17: ms/documents/painted_with_crayon
+resource group_icon, 18: ms/pencil
+resource group_icon, 19: ms/documents/written_with_pencil
+resource group_icon, 20: ms/dice_six_sided
+resource group_icon, 21: ms/window_with_clouds
+resource group_icon, 22: ms/documents/magnify_letters
+resource group_icon, 23: ms/bricks_domino
+resource group_icon, 24: ms/hand_with_playing_cards
+resource group_icon, 25: ms/football_on_grass
+resource group_icon, 26: ms/bag_medical
+resource group_icon, 27: ms/magician_hat_and_wand
+resource group_icon, 28: ms/car_sports_and_flag
+resource group_icon, 29: ms/u_boat_in_sea
+resource group_icon, 30: ms/aeroplane_in_cloud
+resource group_icon, 31: ms/dinghy_with_paddles
+resource group_icon, 32: ms/trafic_light
+resource group_icon, 33: ms/rabbit_running
+resource group_icon, 34: ms/dish_and_stand_sending
+resource group_icon, 35: ms/swords_crossed
+resource group_icon, 36: ms/sword_and_shield
+resource group_icon, 37: ms/mace_with_chain
+resource group_icon, 38: ms/dynamite_with_ignitor

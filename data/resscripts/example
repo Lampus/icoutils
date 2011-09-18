@@ -1,0 +1,21 @@
+# Test resource script for extresso
+#
+#
+
+version 1
+
+file windows/system/shell32.dll
+resource group_icon, 1: ms/documents/logo_windows
+resource group_icon, 2: ms/documents/wordprocessor
+resource group_icon, 3: ms/window_frame_empty
+resource group_icon, 4: ms/folders/plain
+
+file windows/calc.exe
+resource group_icon, SC: ms/calculator
+
+file windows/notepad.exe
+resource group_icon, 1: ms/documents/notepad_half_open_1
+resource group_icon, 2: ms/documents/notepad_half_open_2
+
+file windows/write.exe
+resource group_icon, 1: ms/documents/notepad

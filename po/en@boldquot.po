@@ -1,0 +1,812 @@
+# English translations for icoutils package.
+# Copyright (C) 2010 Oskar Liljeblad
+# This file is distributed under the same license as the icoutils package.
+# Automatically generated, 2010.
+#
+# All this catalog "translates" are quotation characters.
+# The msgids must be ASCII and therefore cannot contain real quotation
+# characters, only substitutes like grave accent (0x60), apostrophe (0x27)
+# and double quote (0x22). These substitutes look strange; see
+# http://www.cl.cam.ac.uk/~mgk25/ucs/quotes.html
+#
+# This catalog translates grave accent (0x60) and apostrophe (0x27) to
+# left single quotation mark (U+2018) and right single quotation mark (U+2019).
+# It also translates pairs of apostrophe (0x27) to
+# left single quotation mark (U+2018) and right single quotation mark (U+2019)
+# and pairs of quotation mark (0x22) to
+# left double quotation mark (U+201C) and right double quotation mark (U+201D).
+#
+# When output to an UTF-8 terminal, the quotation characters appear perfectly.
+# When output to an ISO-8859-1 terminal, the single quotation marks are
+# transliterated to apostrophes (by iconv in glibc 2.2 or newer) or to
+# grave/acute accent (by libiconv), and the double quotation marks are
+# transliterated to 0x22.
+# When output to an ASCII terminal, the single quotation marks are
+# transliterated to apostrophes, and the double quotation marks are
+# transliterated to 0x22.
+#
+# This catalog furthermore displays the text between the quotation marks in
+# bold face, assuming the VT100/XTerm escape sequences.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: icoutils 0.29.1\n"
+"Report-Msgid-Bugs-To: frank.richter@gmail.com\n"
+"POT-Creation-Date: 2010-02-28 13:22+0100\n"
+"PO-Revision-Date: 2010-02-28 13:22+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/error.c:127
+msgid "Unknown system error"
+msgstr "Unknown system error"
+
+#: lib/getopt.c:526 lib/getopt.c:542
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: option ‘[1m%s[0m’ is ambiguous\n"
+
+#: lib/getopt.c:575 lib/getopt.c:579
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: option ‘[1m--%s[0m’ doesn't allow an argument\n"
+
+#: lib/getopt.c:588 lib/getopt.c:593
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: option ‘[1m%c%s[0m’ doesn't allow an argument\n"
+
+#: lib/getopt.c:636 lib/getopt.c:655 lib/getopt.c:971 lib/getopt.c:990
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: option ‘[1m%s[0m’ requires an argument\n"
+
+#: lib/getopt.c:693 lib/getopt.c:696
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: unrecognized option ‘[1m--%s[0m’\n"
+
+#: lib/getopt.c:704 lib/getopt.c:707
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: unrecognized option ‘[1m%c%s[0m’\n"
+
+#: lib/getopt.c:759 lib/getopt.c:762
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: illegal option -- %c\n"
+
+#: lib/getopt.c:768 lib/getopt.c:771
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: invalid option -- %c\n"
+
+#: lib/getopt.c:823 lib/getopt.c:839 lib/getopt.c:1043 lib/getopt.c:1061
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: option requires an argument -- %c\n"
+
+#: lib/getopt.c:892 lib/getopt.c:908
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: option ‘[1m-W %s[0m’ is ambiguous\n"
+
+#: lib/getopt.c:932 lib/getopt.c:950
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: option ‘[1m-W %s[0m’ doesn't allow an argument\n"
+
+#: lib/version-etc.c:68
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Packaged by %s (%s)\n"
+
+#: lib/version-etc.c:71
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Packaged by %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:78
+msgid "(C)"
+msgstr "(C)"
+
+#: lib/version-etc.c:80
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:96
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Written by %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:100
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Written by %s and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:104
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Written by %s, %s, and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:111
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:118
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:125
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:133
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:141
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:161
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:239
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"Report bugs to <%s>.\n"
+
+#: lib/version-etc.c:241
+#, c-format
+msgid "Report %s bugs to <%s>.\n"
+msgstr "Report %s bugs to <%s>.\n"
+
+#: lib/version-etc.c:244
+#, c-format
+msgid "%s home page: <http://www.gnu.org/software/%s/>.\n"
+msgstr "%s home page: <http://www.gnu.org/software/%s/>.\n"
+
+#: lib/version-etc.c:246
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>.\n"
+msgstr "General help using GNU software: <http://www.gnu.org/gethelp/>.\n"
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "memory exhausted"
+
+#: common/error.c:104
+#, c-format
+msgid ""
+"An internal error has occured. Please report this error by sending the\n"
+"output below to %s.\n"
+"\n"
+"Program: %s\n"
+"Version: %s\n"
+"Error: "
+msgstr ""
+"An internal error has occured. Please report this error by sending the\n"
+"output below to %s.\n"
+"\n"
+"Program: %s\n"
+"Version: %s\n"
+"Error: "
+
+#: common/llist.c:488
+msgid "Called iterator_remove before first iterator_next"
+msgstr "Called iterator_remove before first iterator_next"
+
+#: icotool/create.c:60 icotool/extract.c:66
+msgid "cannot read file"
+msgstr "cannot read file"
+
+#: icotool/create.c:62 icotool/extract.c:68
+msgid "premature end"
+msgstr "premature end"
+
+#: icotool/create.c:112
+msgid "cannot open file"
+msgstr "cannot open file"
+
+#: icotool/create.c:119
+msgid "not a png file"
+msgstr "not a png file"
+
+#: icotool/create.c:125 icotool/extract.c:273 icotool/extract.c:449
+msgid "cannot initialize PNG library"
+msgstr "cannot initialize PNG library"
+
+#: icotool/create.c:130 icotool/extract.c:278 icotool/extract.c:454
+msgid "cannot create PNG info structure - out of memory"
+msgstr "cannot create PNG info structure - out of memory"
+
+#: icotool/create.c:243
+#, c-format
+msgid "cannot decrease bit depth from %d to %d, bit depth not changed"
+msgstr "cannot decrease bit depth from %d to %d, bit depth not changed"
+
+#: icotool/create.c:258 icotool/extract.c:191 icotool/extract.c:288
+msgid "cannot create file"
+msgstr "cannot create file"
+
+#: icotool/create.c:267 icotool/create.c:309 icotool/create.c:319
+#: icotool/create.c:393 icotool/extract.c:199
+msgid "cannot write to file"
+msgstr "cannot write to file"
+
+#: icotool/extract.c:85
+msgid "read error"
+msgstr "read error"
+
+#: icotool/extract.c:113
+msgid "not an icon or cursor file (reserved non-zero)"
+msgstr "not an icon or cursor file (reserved non-zero)"
+
+#: icotool/extract.c:117
+msgid "not an icon or cursor file (wrong type)"
+msgstr "not an icon or cursor file (wrong type)"
+
+#: icotool/extract.c:127
+msgid "reserved is not zero"
+msgstr "reserved is not zero"
+
+#: icotool/extract.c:178 icotool/extract.c:339
+#, c-format
+msgid "--%s --index=%d --width=%d --height=%d --bit-depth=%d --palette-size=%d"
+msgstr ""
+"--%s --index=%d --width=%d --height=%d --bit-depth=%d --palette-size=%d"
+
+#: icotool/extract.c:182 icotool/extract.c:343
+#, c-format
+msgid " --hotspot-x=%d --hotspot-y=%d"
+msgstr " --hotspot-x=%d --hotspot-y=%d"
+
+#: icotool/extract.c:208
+msgid "bitmap header is too short"
+msgstr "bitmap header is too short"
+
+#: icotool/extract.c:212
+msgid "compressed image data not supported"
+msgstr "compressed image data not supported"
+
+#: icotool/extract.c:216
+msgid "x_pels_per_meter field in bitmap should be zero"
+msgstr "x_pels_per_meter field in bitmap should be zero"
+
+#: icotool/extract.c:218
+msgid "y_pels_per_meter field in bitmap should be zero"
+msgstr "y_pels_per_meter field in bitmap should be zero"
+
+#: icotool/extract.c:220
+msgid "clr_important field in bitmap should be zero"
+msgstr "clr_important field in bitmap should be zero"
+
+#: icotool/extract.c:222
+msgid "planes field in bitmap should be one"
+msgstr "planes field in bitmap should be one"
+
+#: icotool/extract.c:225
+#, c-format
+msgid "skipping %d bytes of extended bitmap header"
+msgstr "skipping %d bytes of extended bitmap header"
+
+#: icotool/extract.c:245
+#, c-format
+msgid "incorrect total size of bitmap (%d specified; %d real)"
+msgstr "incorrect total size of bitmap (%d specified; %d real)"
+
+#: icotool/extract.c:392
+msgid "offset of bitmap header incorrect (too low)"
+msgstr "offset of bitmap header incorrect (too low)"
+
+#: icotool/extract.c:396
+msgid "invalid data at expected offset (unrecoverable)"
+msgstr "invalid data at expected offset (unrecoverable)"
+
+#: icotool/extract.c:399
+#, c-format
+msgid "skipping %u bytes of garbage at %u"
+msgstr "skipping %u bytes of garbage at %u"
+
+#: icotool/main.c:121
+msgid "refusing to write binary data to terminal"
+msgstr "refusing to write binary data to terminal"
+
+#: icotool/main.c:122 icotool/main.c:153
+msgid "(standard out)"
+msgstr "(standard out)"
+
+#: icotool/main.c:164 wrestool/main.c:180
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Usage: %s [OPTION]... [FILE]...\n"
+
+#: icotool/main.c:165
+#, c-format
+msgid "Convert and create Win32 icon (.ico) and cursor (.cur) files.\n"
+msgstr "Convert and create Win32 icon (.ico) and cursor (.cur) files.\n"
+
+#: icotool/main.c:166 wrestool/main.c:182
+#, c-format
+msgid ""
+"\n"
+"Commands:\n"
+msgstr ""
+"\n"
+"Commands:\n"
+
+#: icotool/main.c:167
+#, c-format
+msgid "  -x, --extract                extract images from files\n"
+msgstr "  -x, --extract                extract images from files\n"
+
+#: icotool/main.c:168
+#, c-format
+msgid "  -l, --list                   print a list of images in files\n"
+msgstr "  -l, --list                   print a list of images in files\n"
+
+#: icotool/main.c:169
+#, c-format
+msgid ""
+"  -c, --create                 create an icon file from specified files\n"
+msgstr ""
+"  -c, --create                 create an icon file from specified files\n"
+
+#: icotool/main.c:170
+#, c-format
+msgid "      --help                   display this help and exit\n"
+msgstr "      --help                   display this help and exit\n"
+
+#: icotool/main.c:171
+#, c-format
+msgid "      --version                output version information and exit\n"
+msgstr "      --version                output version information and exit\n"
+
+#: icotool/main.c:172
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Options:\n"
+
+#: icotool/main.c:173
+#, c-format
+msgid "  -i, --index=NUMBER           match index of image (first is 1)\n"
+msgstr "  -i, --index=NUMBER           match index of image (first is 1)\n"
+
+#: icotool/main.c:174
+#, c-format
+msgid "  -w, --width=PIXELS           match width of image\n"
+msgstr "  -w, --width=PIXELS           match width of image\n"
+
+#: icotool/main.c:175
+#, c-format
+msgid "  -h, --height=PIXELS          match height of image\n"
+msgstr "  -h, --height=PIXELS          match height of image\n"
+
+#: icotool/main.c:176
+#, c-format
+msgid ""
+"  -p, --palette-size=COUNT     match number of colors in palette (or 0)\n"
+msgstr ""
+"  -p, --palette-size=COUNT     match number of colors in palette (or 0)\n"
+
+#: icotool/main.c:177
+#, c-format
+msgid "  -b, --bit-depth=COUNT        match or set number of bits per pixel\n"
+msgstr "  -b, --bit-depth=COUNT        match or set number of bits per pixel\n"
+
+#: icotool/main.c:179
+#, c-format
+msgid ""
+"  -X, --hotspot-x=COORD        match or set cursor hotspot x-coordinate\n"
+msgstr ""
+"  -X, --hotspot-x=COORD        match or set cursor hotspot x-coordinate\n"
+
+#: icotool/main.c:180
+#, c-format
+msgid ""
+"  -Y, --hotspot-y=COORD        match or set cursor hotspot y-coordinate\n"
+msgstr ""
+"  -Y, --hotspot-y=COORD        match or set cursor hotspot y-coordinate\n"
+
+#: icotool/main.c:181
+#, c-format
+msgid ""
+"  -t, --alpha-threshold=LEVEL  highest level in alpha channel indicating\n"
+"                               transparent image portions (default is 127)\n"
+msgstr ""
+"  -t, --alpha-threshold=LEVEL  highest level in alpha channel indicating\n"
+"                               transparent image portions (default is 127)\n"
+
+#: icotool/main.c:183
+#, c-format
+msgid ""
+"  -r, --raw=FILENAME           store input file as raw PNG (\"Vista icons"
+"\")\n"
+msgstr ""
+"  -r, --raw=FILENAME           store input file as raw PNG (“[1mVista icons"
+"[0m”)\n"
+
+#: icotool/main.c:184
+#, c-format
+msgid "      --icon                   match icons only\n"
+msgstr "      --icon                   match icons only\n"
+
+#: icotool/main.c:185
+#, c-format
+msgid "      --cursor                 match cursors only\n"
+msgstr "      --cursor                 match cursors only\n"
+
+#: icotool/main.c:186
+#, c-format
+msgid "  -o, --output=PATH            where to place extracted files\n"
+msgstr "  -o, --output=PATH            where to place extracted files\n"
+
+#: icotool/main.c:187
+#, c-format
+msgid "\n"
+msgstr "\n"
+
+#: icotool/main.c:188
+#, c-format
+msgid "Report bugs to <%s>.\n"
+msgstr "Report bugs to <%s>.\n"
+
+#: icotool/main.c:224 wrestool/main.c:213
+#, c-format
+msgid "%s: cannot set locale: %s"
+msgstr "%s: cannot set locale: %s"
+
+#: icotool/main.c:226 wrestool/main.c:215
+#, c-format
+msgid "%s: bindtextdomain failed: %s"
+msgstr "%s: bindtextdomain failed: %s"
+
+#: icotool/main.c:228 wrestool/main.c:217
+#, c-format
+msgid "%s: cannot set message domain: %s"
+msgstr "%s: cannot set message domain: %s"
+
+#: icotool/main.c:253
+#, c-format
+msgid "invalid index value: %s"
+msgstr "invalid index value: %s"
+
+#: icotool/main.c:257
+#, c-format
+msgid "invalid width value: %s"
+msgstr "invalid width value: %s"
+
+#: icotool/main.c:261
+#, c-format
+msgid "invalid height value: %s"
+msgstr "invalid height value: %s"
+
+#: icotool/main.c:265
+#, c-format
+msgid "invalid palette-size value: %s"
+msgstr "invalid palette-size value: %s"
+
+#: icotool/main.c:269
+#, c-format
+msgid "invalid bit-depth value: %s"
+msgstr "invalid bit-depth value: %s"
+
+#: icotool/main.c:277
+#, c-format
+msgid "invalid hotspot-x value: %s"
+msgstr "invalid hotspot-x value: %s"
+
+#: icotool/main.c:282
+#, c-format
+msgid "invalid hotspot-y value: %s"
+msgstr "invalid hotspot-y value: %s"
+
+#: icotool/main.c:287
+#, c-format
+msgid "invalid alpha-threshold value: %s"
+msgstr "invalid alpha-threshold value: %s"
+
+#: icotool/main.c:306
+msgid "multiple commands specified"
+msgstr "multiple commands specified"
+
+#: icotool/main.c:308
+msgid "missing argument"
+msgstr "missing argument"
+
+#: icotool/main.c:313
+msgid "only one of --icon and --cursor may be specified"
+msgstr "only one of --icon and --cursor may be specified"
+
+#: icotool/main.c:317
+msgid "missing file argument"
+msgstr "missing file argument"
+
+#: icotool/main.c:330 icotool/main.c:349
+msgid "missing arguments"
+msgstr "missing arguments"
+
+#: icotool/main.c:340
+#, c-format
+msgid "%s: no images matched\n"
+msgstr "%s: no images matched\n"
+
+#: wrestool/extract.c:108
+#, c-format
+msgid "%s: don't know how to extract resource, try `--raw'"
+msgstr "%s: don't know how to extract resource, try ‘[1m--raw[0m’"
+
+#: wrestool/extract.c:161 wrestool/extract.c:208
+#, c-format
+msgid "%s: could not find `%s' in `%s' resource."
+msgstr "%s: could not find ‘[1m%s[0m’ in ‘[1m%s[0m’ resource."
+
+#: wrestool/extract.c:168
+#, c-format
+msgid "%s: icon resource `%s' is empty, skipping"
+msgstr "%s: icon resource ‘[1m%s[0m’ is empty, skipping"
+
+#: wrestool/extract.c:173
+#, c-format
+msgid "%s: mismatch of size in icon resource `%s' and group (%d vs %d)"
+msgstr "%s: mismatch of size in icon resource ‘[1m%s[0m’ and group (%d vs %d)"
+
+#: wrestool/fileread.c:44
+#, c-format
+msgid "%s: premature end"
+msgstr "%s: premature end"
+
+#: wrestool/main.c:181
+#, c-format
+msgid "Extract resources from Microsoft Windows(R) binaries.\n"
+msgstr "Extract resources from Microsoft Windows(R) binaries.\n"
+
+#: wrestool/main.c:183
+#, c-format
+msgid "  -x, --extract           extract resources\n"
+msgstr "  -x, --extract           extract resources\n"
+
+#: wrestool/main.c:184
+#, c-format
+msgid "  -l, --list              output list of resources (default)\n"
+msgstr "  -l, --list              output list of resources (default)\n"
+
+#: wrestool/main.c:185
+#, c-format
+msgid ""
+"\n"
+"Filters:\n"
+msgstr ""
+"\n"
+"Filters:\n"
+
+#: wrestool/main.c:186
+#, c-format
+msgid "  -t, --type=[+|-]ID      resource type identifier\n"
+msgstr "  -t, --type=[+|-]ID      resource type identifier\n"
+
+#: wrestool/main.c:187
+#, c-format
+msgid "  -n, --name=[+|-]ID      resource name identifier\n"
+msgstr "  -n, --name=[+|-]ID      resource name identifier\n"
+
+#: wrestool/main.c:188
+#, c-format
+msgid "  -L, --language=[+|-]ID  resource language identifier\n"
+msgstr "  -L, --language=[+|-]ID  resource language identifier\n"
+
+#: wrestool/main.c:189
+#, c-format
+msgid "      --all               perform operation on all resource (default)\n"
+msgstr ""
+"      --all               perform operation on all resource (default)\n"
+
+#: wrestool/main.c:190
+#, c-format
+msgid ""
+"\n"
+"Miscellaneous:\n"
+msgstr ""
+"\n"
+"Miscellaneous:\n"
+
+#: wrestool/main.c:191
+#, c-format
+msgid "  -o, --output=PATH       where to place extracted files\n"
+msgstr "  -o, --output=PATH       where to place extracted files\n"
+
+#: wrestool/main.c:192
+#, c-format
+msgid "  -R, --raw               do not parse resource contents\n"
+msgstr "  -R, --raw               do not parse resource contents\n"
+
+#: wrestool/main.c:193
+#, c-format
+msgid "  -v, --verbose           explain what is being done\n"
+msgstr "  -v, --verbose           explain what is being done\n"
+
+#: wrestool/main.c:194
+#, c-format
+msgid "      --help              display this help and exit\n"
+msgstr "      --help              display this help and exit\n"
+
+#: wrestool/main.c:195
+#, c-format
+msgid "      --version           output version information and exit\n"
+msgstr "      --version           output version information and exit\n"
+
+#: wrestool/main.c:196
+#, c-format
+msgid ""
+"\n"
+"A leading `+' in --type, name or language options indicates a true string\n"
+"identifier. Similarly, `-' indicates a true numeric identifier.\n"
+"\n"
+msgstr ""
+"\n"
+"A leading ‘[1m+[0m’ in --type, name or language options indicates a true "
+"string\n"
+"identifier. Similarly, ‘[1m-[0m’ indicates a true numeric identifier.\n"
+"\n"
+
+#: wrestool/main.c:198
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr "Report bugs to %s.\n"
+
+#: wrestool/main.c:270
+msgid "--language has no effect without --name and --type"
+msgstr "--language has no effect without --name and --type"
+
+#: wrestool/main.c:272
+msgid "--name has no effect without --type"
+msgstr "--name has no effect without --type"
+
+#: wrestool/main.c:280
+#, c-format
+msgid ""
+"missing file argument\n"
+"Try `%s --help' for more information."
+msgstr ""
+"missing file argument\n"
+"Try ‘[1m%s --help[0m’ for more information."
+
+#: wrestool/main.c:300
+#, c-format
+msgid "%s: file has a size of 0"
+msgstr "%s: file has a size of 0"
+
+#: wrestool/main.c:329
+#, c-format
+msgid "%s: --language has no effect because file is 16-bit binary"
+msgstr "%s: --language has no effect because file is 16-bit binary"
+
+#: wrestool/restable.c:121
+#, c-format
+msgid "--type=%s --name=%s%s%s [%s%s%soffset=0x%x size=%d]\n"
+msgstr "--type=%s --name=%s%s%s [%s%s%soffset=0x%x size=%d]\n"
+
+#: wrestool/restable.c:124
+msgid " --language="
+msgstr " --language="
+
+#: wrestool/restable.c:318
+#, c-format
+msgid "%s: resource table invalid, ignoring remaining entries"
+msgstr "%s: resource table invalid, ignoring remaining entries"
+
+#: wrestool/restable.c:384 wrestool/restable.c:465
+#, c-format
+msgid "%s: not a PE or NE library"
+msgstr "%s: not a PE or NE library"
+
+#: wrestool/restable.c:400
+#, c-format
+msgid "%s: no resource directory found"
+msgstr "%s: no resource directory found"
+
+#: wrestool/restable.c:455
+#, c-format
+msgid "%s: file contains no resources"
+msgstr "%s: file contains no resources"

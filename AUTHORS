@@ -1,0 +1,27 @@
+Authors
+=======
+
+Frank Richter <frank.richter@gmail.com>
+- Current maintainer
+
+Oskar Liljeblad <oskar@osk.mine.nu>
+- Original author
+
+Contributors
+============
+
+Colin Watson <cjwatson@debian.org>
+ - creating and maintaining the Debian package of icoutils
+ - manual pages
+
+Sean Peirce <seanp71@bellatlantic.net>
+ - created the RPM spec file
+
+Marcin Siennicki
+ - BMP extraction support for wrestool
+
+Joel Holdsworth<joel@airwebreathe.org.uk>
+Martin Gieseking
+Martin Storsjö<martin@martin.st>
+Mathew Eis <mathew.eis@gmail.com>
+ - misc. fixes

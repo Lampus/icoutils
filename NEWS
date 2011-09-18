@@ -1,0 +1,175 @@
+ï»¿2010-02-14: icoutils 0.29.0 released.
+  Maintainer position adopted by Frank Richter <frank.richter@gmail.com>.
+  Fixed icotool to correctly populate the planes and bit_count fields of Win32CursorIconFileDirEntry for icons (Joel Holdsworth).
+  Fix occasional infinite loop when presented a corrupted icon file (Mathew Eis).
+  Set color of fully transparent pixels to black (Martin StorsjÃ¶).
+  Add support for "Vista" icons (raw PNGs embedded in .ico files).
+
+2009-08-16: icoutils 0.28.0 released.
+  Maintenance release - minor fixes only.
+  Compile wrestool with win32-endian.c (from Martin Gieseking).
+  Update license to GPLv3.
+  Remove unnecessary (?) years in my copyright notices.
+  Remove unnecessary spaces in the RPM .spec file.
+  Updated Gnulib stuff and simplify some code in the process.
+
+2009-06-29: icoutils 0.27.0 released. 
+  Maintenance release - minor fixes only.
+  Update web site address in RPM package.
+  Various Gnulib and build updates.
+  Get rid of many files in the common subdirectory in the source code.
+  Apply patch from Marcin Siennicki adding support to wrestool for
+  extracting BMP files - thanks!
+  Updated the RPM .spec file a little.
+  icotool: Be stricter when parsing command line arguments.
+
+2005-04-30: icoutils 0.26.0 released.
+  First release on Savannah.
+  The home page has been redesigned, and as a result the README was
+  slightly updated as well.
+
+2005-04-23: icoutils 0.25.0 released.
+  Clarified license and copyright of files.
+  Updated dependencies list.
+  Added MANIFEST.sources file.
+  Somewhat better checks for libpng.
+  Mention that Windows(R) is a trademark.
+  Remove intl directory (gettext is now used externally instead).
+  Support localization through GNU Gettext (for all printed messages).
+  Updated help messages of most applications.
+  Somewhat better temporary file handling in extresso.
+
+2005-04-17: icoutils 0.24.0 released.
+  Corrected script building in extresso subdirectory.
+  Add more gnulib modules for better compatibility and smaller code.
+  Better gnulib integration (now inside configure.ac) - autogen.sh gone.
+  Improve compatibility overall (as suggested by Matthew Cheetah
+  Gabeler-Lee).
+  Applied Mac OS X 10.3 fixes from Kaoru Shirai.
+  Added support for broken NE files to wrestool (broken file contributed by
+  Denilson F. de Sá).
+
+2004-07-05: icoutils 0.23.0 released.
+  Fixed some #if/#ifndef typos (reported by Andrew Taylor).
+  Clean compat in maintainer-clean-local, not distclean-local (reported by
+  Colin Watson).
+  PNG images with gradual transparency were not always converted into 32bit
+  icons (reported by Aaron Johnson).
+  --bit-depth=24 or 32 would create invalid icons (reported by Aaron
+  Johnson).
+  Upgrade automake, autoconf and gnulib.
+
+2003-11-04: icoutils 0.22.0 released.
+  Fixed a memory management bug in wrestool that would cause it to crash
+  very often.
+  Fixed some compatibility related bugs in the configure script.
+  Check for libpng10 now (not properly but it works).
+  Fixed some Cygwin issues reported and patched by Denver Coneybeare
+  (thanks!).
+
+2003-09-28: icoutils 0.21.0 released.
+  Added RPM spec file (contributed by Sean Peirce, thanks).
+  Fixed a fatal reallocation bug in wrestool (I can't see why this wasn't
+  discovered before), causing wrestool to print "premature end"
+  incorrectly.
+  Added support for empty icons in wrestool (they're ignored), don't know
+  why they are empty though (size in file is 0).
+  These bugs were resported by Sean (some other Sean).
+  Replaced the compat library with files from Gnulib.
+
+2003-06-03: icoutils 0.20.0 released.
+  Added support for extracting and creating icons with 8-bit alpha
+  (variable transparency). Previously there were only two levels of
+  transparency: none and completely transparent (bug reported by Steve van
+  Bennekom).
+  Link with -lz -lm since libpng requires it on some systems (bug reported
+  by Götz Waschk).
+  Fixed some minor compilation warnings.
+
+2003-05-26: icoutils 0.19.0 released.
+  Icotool can now extract and create icons with images larger than 255x255
+  (bug reported by Steve van Bennekom, thanks).
+  Improved some error messages in icotool.
+  Upgraded to autoconf 2.57 and automake 1.7.4.
+
+2003-02-06: icoutils 0.18.0 released.
+  Fixed a bug with listing and extracting cursor files with hotspots other
+  than (0,0) (reported by Simon Widmer).
+  Fixed typo in wrestool man page (reported by Sergey Baturov
+  through Debian maintainer Colin Watson).
+  Upgraded to autoconf 2.57 and automake 1.7.2.
+
+2002-11-30: icoutils 0.17.0 released.
+  libcompat cleanups and compilation fixes for ia64.
+  icotool now accepts --output=- for standard out (patch submitted by Mario
+  Wolff).
+  icotool -c now works on non big endian architectures (patch submitted by
+  Fabien Ninoles through Colin Watson).
+  Pad with empty colors instead of the last one used.
+  Upgraded to autoconf 2.56 and automake 1.7.1.
+
+2002-07-07: icoutils 0.16.0 released.
+  Images with two bits per pixel are no longer created (they don't seem to
+  be supported by any other applications than icotool :).
+  Now uses new scripts from automake (configure would complain about an old
+  `missing' script).
+  Applied patch from Pekka Pessi that fixed displaying of resource names in
+  wrestool.
+  The --bit-depth option can now be used to specify a minimum bit-depth for
+  images in create mode.
+
+2002-06-04: icoutils 0.15.0 released.
+  Removed a forgotten debugging message.
+  Applied patch from Mathias Hasselmann:
+    Fixes a possible crash when creating icons with multiple images.
+    Implements an option -t, --alpha-threshold that specifies the maximal
+    alpha level in the PNG image for portions which shall become
+    transparent in the icon created.
+
+2002-02-27: icoutils 0.14.0 released.
+  Complete rewrite of icotool:
+    Support for generating XPM files has been removed, now only extract to
+    PNG images.
+    Added support for creating icon and cursor files!
+    Implemented support for all possible icons, 32-bit as well.
+  Documentation changed:
+    Added manual pages from debian package.
+    Removed the documentation, replacing it by the manual pages.
+    Updated README.
+
+2002-01-18: icoutils 0.13.0 released.
+  Fixed possible relocation-bug in wrestool.
+  Implemented support for 16 million color icons in icotool.
+  Cleaned up code and Makefiles once again.
+  Upgraded to autoconf 2.52/automake 1.4-p4.
+  Updated documentation (corrected english).
+  The author has changed email-address to oskar@osk.mine.nu.
+
+2001-03-19: icoutils 0.12.0 released.
+  Compilation fixes from Debian package maintainer Colin Watson.
+
+2001-03-09: icoutils 0.11.0 released.
+  Updated the documentation.
+  icotool has been completely rewritten for cleaner code.
+  Preliminary support for big-endian machines is included in icotool (but
+  not tested).
+
+2001-02-22: icoutils 0.10.0 released.
+  Third release, which was done after the Wine headers were removed. The
+  icoutils collection is not entirely licensed under the terms of the GPL.
+
+1999-07-04: icoutils 0.9.0 released.
+  First release of icoutils.
+  icoutils contains some code from icoutil, but most has been rewritten.
+  The icotool applications replaces icoutil.
+  New applications are wrestool, extresso and genresscript.
+  extrico has been removed.
+
+1999-02-04: icoutil 0.1.1 released
+  Second release.
+  Some minor fixes to documentation and possibly code.
+  extrico.exe is no longer released under the GPL license. (Instead it's
+  uncopyrighted and free.)
+
+1998-08-12: icoutil 0.1.0 released
+  First release.

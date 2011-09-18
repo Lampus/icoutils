@@ -1,0 +1,33 @@
+general:
+  renew all error messages
+  cleanup all apps
+  for all: bump file names when files already exists (esp. extresso)
+  make sgml documentation for res scripts
+
+icotool:
+  support animated icons: see wotsit.org: ANI
+  support for small BMPs renamed to ICO?
+  do not truncate or overwrite when opening new file.
+  add --transparent-color=#xxyyzz
+    Use this color for transparent pixels. Normally the color is left as is
+    in transparent pixels, but it might be hard/impossible to set color for
+    tranparency in some graphics programs. (from Lawrence Kesteloot)
+
+extresso:
+  improved error checking?
+
+wrestool:
+  do not truncate or overwrite when opening new file (see icotool).
+  read files using functions in fileread.c.
+  in main, do not check filesize. Add support for '-' as stdin.
+  callbacks (do_resource) should be able to fail if returning FALSE.
+  write dual level verbosity debug messages!
+  count number of resources matched once completed
+  better (shorter) extraction filenames (get_destination_name)
+  --format option for (raw|res_name|res_id) instead of raw
+  --first to extract one resource only (error if none matched)
+  count resources --count? error if not found?
+  fix language management & naming, for dest filename as well
+
+examples:
+  make reslists for XP+SP2

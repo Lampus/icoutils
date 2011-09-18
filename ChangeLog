@@ -1,0 +1,159 @@
+Sat Nov 30 13:37:50 CET 2002
+
+	* Release 0.17.0.
+	* I don't think this project needs a ChangeLog file.
+	The NEWS file is used for the purpose of keeping logs insterad.
+
+Sun Jul  7 21:58:22 CEST 2002
+
+	* Release 0.16.0.
+
+Sun Jul  7 21:28:50 CEST 2002
+
+	* icotool/create.c:
+	(create_icon) Take an additional argument, bit_count.
+	Change two bits per pixel to four.
+	Fixed int arguments in prototype.
+	* icotool/icotool.1: Update documentation about --bit-depth.
+	* icotool/main.c: Send bit_count argument to create_icon.
+	* icotool/icotool.h: Updated create_icon prototype.
+
+Sat Jul  6 09:32:30 CEST 2002
+
+	* wrestool/main.c: (res_type_id_to_string) Check id better.
+
+Tue Jun  4 17:13:10 CEST 2002
+
+	* Removed some scripts created by automake and ran automake -a.
+
+Wed Jun  1 14:56:42 CEST 2002 Mathias Hasselmann <mathias@taschenorakel.de>
+
+	* create.[ch],main.c:
+	Introduced an alpha threshold option leading to more predictable
+	transparency masks: Creating .ico files from .png files created
+	with the GIMP was an annoying lottery.
+	* create.c:
+	Outname was released once for each successfully processed image
+	causing icotool to segfault randomly.
+
+Tue Apr  9 19:58:32 CEST 2002
+
+	* icotool/execute.c: Removed debugging message.
+
+Mon Mar 11 12:44:18 CET 2002
+
+	* configure.ac:
+	Now use bug report address to AC_INIT, and substitute correctly
+	into config.h.
+
+Wed Feb 27 22:35:38 CET 2002
+
+	* Too many changes to write in this changelog...
+
+Sun Jan 20 15:16:39 CET 2002
+
+	* common/fileread.[ch]:
+	Removed unused functions.
+	Cleaned up includes.
+	Fixes so that file can't be included twice.
+	* common/messages.[ch]: Ditto.
+	* common/util.[ch]: Ditto.
+
+Sun Jan 20 11:28:05 CET 2002
+
+	* icoutils/readico.c: Handle 32-bit bitmaps.
+	* icoutils/xpm.c: Ditto.	
+
+Fri Jan 18 16:03:28 CET 2002  Oskar Liljeblad <oskar@osk.mine.nu>
+
+	* icoutils/*:
+	Implemented support for 16M color bitmaps.
+	Cleaned up code somewhat.
+	Reindented with 4-space tabs.
+	* configure.ac: New file, based on old configure.in.
+	* configure.in: Removed file.
+	* acconfig.h: Removed file.
+
+Mon Jun 11 17:35:29 CEST 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* wrestool/restable.c: Fixed possible bug regarding relocation.
+	Data would be checked even if IMAGE_SCN_CNT_UNINITIALIZED_DATA
+	was set on the section.
+
+Wed Mar 21 18:51:27 CET 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* icotool/win32-endian.h: Never include byteswap.h.
+	* icotool/win32-endian.c: Changed HAS_BYTESWAP_H to HAVE_BYTESWAP_H.
+	* icotool/writeico.c: Include byteswap.h if possible.
+
+Mon Mar 19 20:35:35 CET 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* icotool/win32-endian.[ch], wrestool/restable.c:
+	Typo-fixes for compilation on big-endian platforms.
+
+Sun Mar 18 18:10:08 CET 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* extresso/genresscript: New subroutine path_or from
+	extresso/extresso. Now uses path_or to find path of wrestool.
+	* icotool/main.c: Include stdarg.h if available.
+
+Fri Mar  9 14:55:48 CET 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* LICENSE: Some minor fixes (still the same license :).
+	* README: Updated.
+	* common/win32.h: Fixed some typos. Because of laziness
+	(and use of "char foo[0]" in structs), GNU gcc is now required to
+	compile icoutils.
+	* configure.in:
+	Checks for more headers.
+	Checks for endian.
+	* doc/icoutils.sgml: Rewrote many parts. Little in the
+	documentation has changed though.
+	* icotool/*:
+	All source code completely rewritten. I think the code is
+	much cleaner now. Hopefully there shouldbe no new bugs.
+	There is also preliminary support for big endian machines
+	(untested though).
+
+Thu Feb 22 10:48:54 CET 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* include-wine/*: Removed files.
+	* common/win32.h: New file:
+	* wrestool/*, icotool/*: Rewrote to use new win32.h file.
+	* doc/icoutils.sgml: Fixed small formatting bug in 5.4.
+	* data/icons/*: Renamed some files.
+
+Tue Feb 20 21:38:34 CET 2001  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* extresso: If icotools/wrestool is in path, use that
+
+Sun Jul 18 11:36:10 UTC 1999  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* genresscript: Now writes 'resource' in front of resource lines.
+	* extresso: Changed --verbose messages to be more informative.
+	* data/resscripts/win98_*: Changes to add 'resource' keyword.
+	  Changes from base directory C:\Windows\System to just C:\Windows.
+	  Changes the directory structure of extracted resources.
+
+Sat Jul  3 23:08:22 UTC 1999  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* Rewrote README and icoutils.sgml.
+
+Sun Jun 13 15:04:25 UTC 1999  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* Merged icoutil, created wrestool, removed extrico. The
+	  result is called icoutils.
+
+Thu Feb  4 15:58:33 UTC 1999  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* Release 0.1.1.
+	  (No changes apart from the one listed below.)
+
+Sat Sep 19 10:03:38 UTC 1998  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* Fixed a silly bug with icon_is_included being called with
+	  wrong parameter.
+
+Wed Aug 12 08:31:13 UTC 1998  Oskar Liljeblad  <osk@hem.passagen.se>
+
+	* Release 0.1.0

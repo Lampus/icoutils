@@ -1,0 +1,298 @@
+# win98_executables  0.1.1  (1999-07-18)
+# extresso Resource Script
+#
+# Suggested base directory:          c:\windows\
+# Number of binaries listed:         ?
+# Number of icon resources listed:   ?
+#
+# Oskar Liljeblad <oskar@osk.mine.nu>
+#
+
+file asd.exe
+resource group_icon, 100: ms/computers/with_keyboard_and_mouse
+
+file calc.exe
+resource group_icon, 'SC': ms/calculator
+
+file cdplayer.exe
+resource group_icon, 107: ms/cd_with_notes
+resource group_icon, 110: ms/documents/plain_with_cd
+resource group_icon, 114: ms/arrow_upper_down_right
+
+file charmap.exe
+resource group_icon, 111: ms/button_with_symbols
+
+file cleanmgr.exe
+resource group_icon, 104: ms/drives/harddrive_wiping
+resource group_icon, 111: ms/documents/logo_windows
+resource group_icon, 113: ms/computers/with_unpacked_software
+resource group_icon, 114: ms/no_desc/fat_32_convert
+
+file cvt1.exe
+resource group_icon, 128: ms/no_desc/fat_32_convert
+resource group_icon, 134: ms/drives/harddrive
+
+file cvtaplog.exe
+resource group_icon, 2000: ms/no_desc/defrag
+
+file defrag.exe
+resource group_icon, 223: ms/no_desc/defrag
+resource group_icon, 1032: ms/drives/floppy
+resource group_icon, 1033: ms/drives/harddrive
+resource group_icon, 1034: ms/chip_ic
+resource group_icon, 1035: ms/drives/harddrive_networked
+resource group_icon, 113: ms/drives/harddrives_two
+resource group_icon, 115: ms/drives/harddrive_no_sign
+
+file dialer.exe
+resource group_icon, 1: ms/hand_on_phone_yellow
+resource group_icon, 116: ms/phone_black
+
+file drvspace.exe
+resource group_icon, 675: ms/no_desc/drivespace_3
+resource group_icon, 1058: ms/drives/floppy_with_3_5_disk
+resource group_icon, 1084: ms/drives/floppy_with_5_25_disk
+resource group_icon, 1059: ms/drives/harddrive
+resource group_icon, 1060: ms/chip_ic
+resource group_icon, 1131: ms/drives/floppy
+resource group_icon, 1061: ms/drives/harddrive_networked
+resource group_icon, 1062: ms/smiley_happy
+resource group_icon, 1116: ms/drives/harddrive_no_sign
+
+file drwatson.exe
+resource group_icon, 1: ms/doctor_with_stetoscope
+
+file explorer.exe
+resource group_icon, 100: ms/computers/with_monitor_and_keyboard
+resource group_icon, 101: ms/folders/magnify
+resource group_icon, 102: ms/printer_with_paper
+resource group_icon, 103: ms/desk_pad_with_pencil_and_paper
+resource group_icon, 104: ms/printer_with_question_sign
+resource group_icon, 107: ms/no_desc/win_3_group_convert
+resource group_icon, 108: ms/recycle_bin_with_document_and_folder
+
+file fontview.exe
+resource group_icon, 110: ms/documents/letter_upper_a
+resource group_icon, 111: ms/documents/letters_tt
+
+file freecell.exe
+resource group_icon, 401: ms/card_pack_and_king
+
+file grpconv.exe
+resource group_icon, 100: ms/no_desc/win_3_group_convert_windows
+resource group_icon, 101: ms/no_desc/win_3_group_convert
+
+file hh.exe
+resource group_icon, 101: ms/documents/sheet_and_question_mark
+
+file ipconfig.exe
+resource group_icon, 503: ms/no_desc/ip_config
+
+file kodakimg.exe
+resource group_icon, 128: ms/picture_tree_and_mountains
+resource group_icon, 129: ms/documents/picture_tree_and_mountains
+resource group_icon, 130: ms/picture_tree_and_mountains
+
+file kodakprv.exe
+resource group_icon, 129: ms/documents/picture_tree_and_mountains_magnify
+resource group_icon, 130: ms/sign_exclamation_triangular_yellow
+
+file mplayer.exe
+resource group_icon, 10: ms/film_action
+resource group_icon, 11: ms/documents/film_action
+resource group_icon, 12: ms/documents/speaker_yellow
+resource group_icon, 13: ms/documents/camera
+resource group_icon, 14: ms/documents/nibbles
+resource group_icon, 15: ms/documents/sound_notes
+resource group_icon, 16: ms/documents/cd
+
+file mshearts.exe
+resource group_icon, 2: ms/no_desc/ms_hearts
+
+file netwatch.exe
+resource group_icon, 101: ms/drives/harddrive_networked_searched
+
+file notepad.exe
+resource group_icon, 1: ms/documents/notepad_open
+resource group_icon, 2: ms/documents/notepad_open_2
+
+file packager.exe
+resource group_icon, 1: ms/box_open_with_document_and_note
+
+file pbrush.exe
+resource group_icon, 1: ms/palette
+
+file progman.exe
+resource group_icon, 3: ms/no_desc/win_3_group_convert_windows
+resource group_icon, 6: ms/frame_with_msdos_text
+resource group_icon, 7: ms/frame_with_text
+resource group_icon, 'SHEETICON': ms/frame_with_cells
+resource group_icon, 'DATAICON': ms/frame_with_data
+resource group_icon, 'COMMICON': ms/frame_with_phone
+resource group_icon, 2: ms/frame_empty
+resource group_icon, 1: ms/no_desc/win_3_program_group
+resource group_icon, 31944: ms/logo_microsoft_windows
+resource group_icon, 'MSDOSICON': ms/logo_msdos
+resource group_icon, '31944+10': ms/can_with_scissors_and_brush
+resource group_icon, '31944+11': ms/graph_bar_3d
+resource group_icon, '31944+12': ms/photo_camera
+resource group_icon, '31944+13': ms/cd
+resource group_icon, '31944+14': ms/windows_with_flow_chart
+resource group_icon, '31944+15': ms/film_action_with_hands
+resource group_icon, '31944+16': ms/documents/measure
+resource group_icon, '31944+17': ms/documents/text_three
+resource group_icon, '31944+18': ms/film_reel
+resource group_icon, '31944+19': ms/sheet_graph
+resource group_icon, '31944+20': ms/hards_shake
+resource group_icon, '31944+21': ms/swiss_knife
+resource group_icon, '31944+22': ms/letters
+resource group_icon, '31944+23': ms/picture_mona_lisa
+resource group_icon, '31944+24': ms/newspaper
+resource group_icon, '31944+25': ms/phone
+resource group_icon, '31944+26': ms/documents/empty
+resource group_icon, '31944+27': ms/cells_with_calculator_and_pen
+resource group_icon, '31944+28': ms/paper_pinned
+resource group_icon, '31944+29': ms/cassette
+resource group_icon, '31944+30': ms/typewriter_yellow_with_paper
+resource group_icon, '31944+31': ms/suitcase_metal
+resource group_icon, '31944+32': ms/door_on_wall
+resource group_icon, '31944+33': ms/documents/in_case
+resource group_icon, '31944+34': ms/mailbox_metal
+resource group_icon, '31944+35': ms/safe
+resource group_icon, '31944+36': ms/question_mark_yellow
+resource group_icon, '31944+37': ms/exclamation_mark_purple
+resource group_icon, '31944+38': ms/door_on_wall_open_with_arrow
+resource group_icon, '31944+39': ms/hand_pointing_left
+resource group_icon, '31944+40': ms/hand_pointing_right
+resource group_icon, '31944+41': ms/hand_pointing_up
+resource group_icon, '31944+42': ms/arrow_down
+resource group_icon, '31944+43': ms/arrow_left
+resource group_icon, '31944+44': ms/arror_right
+resource group_icon, '31944+45': ms/arrow_up
+
+file regedit.exe
+resource group_icon, 100: ms/no_desc/reg_edit
+resource group_icon, 101: ms/documents/reg_edit
+resource group_icon, 102: ms/no_desc/reg_edit_magnify
+resource group_icon, 201: ms/computers/with_keyboard
+resource group_icon, 202: ms/computers/green_screen
+resource group_icon, 203: ms/folders/plain
+resource group_icon, 204: ms/folders/open
+resource group_icon, 205: ms/documents/half_letters_ab
+resource group_icon, 206: ms/documents/half_bits
+
+file rsrcmtr.exe
+resource group_icon, 100: ms/no_desc/resource_meter
+resource group_icon, 121: ms/meter_full
+resource group_icon, 122: ms/meter_11_of_12
+resource group_icon, 123: ms/meter_10_of_12
+resource group_icon, 124: ms/meter_9_of_12
+resource group_icon, 125: ms/meter_8_of_12
+resource group_icon, 126: ms/meter_7_of_12
+resource group_icon, 127: ms/meter_half
+resource group_icon, 128: ms/meter_5_of_12
+resource group_icon, 129: ms/meter_4_of_12
+resource group_icon, 130: ms/meter_3_of_12
+resource group_icon, 131: ms/meter_2_of_12
+resource group_icon, 132: ms/meter_1_of_12
+resource group_icon, 133: ms/meter_empty
+
+file rundll.exe
+resource group_icon, 100: ms/logo_microsoft_windows
+
+file rundll32.exe
+resource group_icon, 100: ms/logo_microsoft_windows
+
+file scandskw.exe
+resource group_icon, 400: ms/drives/harddrive_open
+
+file scanregw.exe
+resource group_icon, 106: ms/no_desc/reg_edit_magnify
+
+file setdebug.exe
+resource group_icon, 100: ms/teddybear
+
+file sndrec32.exe
+resource group_icon, 10: ms/speaker_yellow
+resource group_icon, 15: ms/documents/speaker
+resource group_icon, 16: ms/documents_with_speaker_and_arrows
+
+file sndvol32.exe
+resource group_icon, 300: ms/lever_with_speaker
+resource group_icon, 301: ms/speaker_small_left
+resource group_icon, 302: ms/speaker_small_right
+resource group_icon, 303: ms/speaker_with_no_sign
+resource group_icon, 304: ms/speaker_with_sign
+
+file sol.exe
+resource group_icon, 'SOL': ms/cards_playing_in_box
+
+file st5unst.exe
+resource group_icon, 2000: ms/recycle_bin_with_document
+
+file sysmon.exe
+resource group_icon, 1000: ms/charts
+
+file taskman.exe
+resource group_icon, 100: ms/screw_with_nuts
+
+file telnet.exe
+resource group_icon, 'TELNET': ms/computers/with_server_box
+
+file tour98.exe
+resource group_icon, 128: ms/logo_windows_with_binoculars
+resource group_icon, 129: ms/documents/half_with_text_doc1
+
+file tuneup.exe
+resource group_icon, 101: ms/calendar_with_clock
+
+file welcome.exe
+resource group_icon, 102: ms/logo_windows_diagonal
+resource group_icon, 105: ms/logo_windows
+
+file winfile.exe
+resource group_icon, 200: ms/cases
+resource group_icon, 201: ms/window_with_directory_tree
+resource group_icon, 202: ms/window_with_icons
+resource group_icon, 204: ms/window_with_tree_and_icons
+
+file winhelp.exe
+resource group_icon, 1: ms/question_mark_yellow_3d
+
+file winhlp32.exe
+resource group_icon, 4000: ms/question_mark_yellow_3d
+resource group_icon, 4001: ms/book_purple_with_question_mark
+resource group_icon, 4002: ms/documents/question_mark
+
+file winipcfg.exe
+resource group_icon, 503: ms/no_desc/ip_config
+
+file winmine.exe
+resource group_icon, 100: ms/mine
+
+file winpopup.exe
+resource group_icon, 203: ms/jack_in_the_box_back
+resource group_icon, 202: ms/jack_in_the_box_popup_blue
+resource group_icon, 201: ms/jack_in_the_box_popup_cyan
+
+file winrep.exe
+resource group_icon, 109: ms/scroll_with_pen
+resource group_icon, 110: ms/scroll_with_pen_2
+resource group_icon, 112: ms/scroll_with_pen_3
+resource group_icon, 206: ms/scroll_magnify
+
+file winver.exe
+resource group_icon, 'WINVER': ms/logo_microsoft_windows
+
+file write.exe
+resource group_icon, 1: ms/documents/notepad_with_pen 
+
+file wscript.exe
+resource group_icon, 1: ms/no_desc/wscript
+resource group_icon, 100: ms/documents/scroll_with_text
+resource group_icon, 101: ms/documents/scroll_with_text_cyan
+resource group_icon, 102: ms/documents/scroll_with_text_yellow
+
+file wupdmgr.exe
+resource group_icon, 'LARGEICON': ms/globe_with_windows_logo
+resource group_icon, 'SMALLICON': ms/globe_small_with_windows_logo
